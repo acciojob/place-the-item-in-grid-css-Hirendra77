@@ -1,2 +1,14 @@
-
+.holder{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+    
+}
 /* Your CSS Code here. */
+.element{
+    width: auto;
+    height: auto;
+    margin: 2px 2px;
+    
+    background-color: red;
+}
